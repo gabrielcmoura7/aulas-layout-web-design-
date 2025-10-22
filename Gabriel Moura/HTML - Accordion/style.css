@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(213, 255, 255);
+}
+
+
+ .FAQ{
+
+    background-color: rgb(20, 13, 58);
+    width: 700px;
+
+    
+    
+
+    margin: 0 auto;
+    padding: 20px ;
+
+    border-radius: 5px;
+    
+}
+
+
+.element {
+  background: linear-gradient(
+    314deg,
+    rgba(15, 37, 110, 1) 12%,
+    rgba(17, 57, 96, 1) 31%,
+    rgba(32, 178, 7, 1) 84%
+  );
+  background-blend-mode: normal;
+
+ 
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+    margin: 20px 0px 20px 0px  ;
+}
+
+details{
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+summary{
+    cursor: pointer;
+    padding: 15 px;
+    font-weight: 60;
+    font-size: 18px;
+
+}
+
+.details-content{
+    padding: 15px;
+ 
+}
+
+.details-content p{
+    line-height: 30px;
+
+}
+
+.details-content li{
+    margin: 20px;
+}
+

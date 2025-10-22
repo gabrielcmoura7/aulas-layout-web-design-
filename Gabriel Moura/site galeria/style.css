@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    }
+
+    body{
+        background-color: rgba(230, 187, 238, 0.103);
+
+       font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal
+        }
+
+    
+
+nav {
+
+
+    background-color: rgba(186, 104, 200, 0.692);
+    
+    box-shadow: 6px 6px 3px rbga(0, 0, 0, 0.2);
+
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+     max-width: 1000px;
+    min-width: 300px;
+}
+
+
+
+img scr{
+    justify-content: center;
+}
+
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px 10px;
+}
+
+nav a:hover {
+    color: rgba(66, 10, 88, 0.745);
+
+}
+
+header{
+    padding: 20px 0px;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+figure{
+    display: center;
+    justify-content:right;
+
+    max-width: 20px;
+    min-width: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav a:hover {
+    color: #29703e;
+}
+
+nav a.ativo {
+    border-bottom: 2px solid #92E3A9;
+    padding-bottom: 5px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    max-width: 600px;
+}
+
+.content-text h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: #555;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.content-text p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(169, 169, 169);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color:#999;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}

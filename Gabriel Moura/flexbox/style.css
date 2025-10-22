@@ -1,0 +1,329 @@
+:root{
+--border: 2px solid rgb(68, 68, 68);
+
+--shadow: 
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    /* background-color: #e7e1e1; */
+    background-image: url(assets/library-of-congress-dJMFMYhlrWw-unsplash.jpg);
+    img {
+  opacity: 2vh; 
+  size: 190vw 190vh;
+}
+   font-family: Noto Serif JP;
+   font-size: larger;
+}
+
+.wrapper {
+
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: flex; */
+    /* align-items: center; */
+}
+
+
+
+
+/*-------------NAV----------------*/
+
+nav {
+
+
+    background-color: rgba(236, 27, 27, 0.745);
+    
+    box-shadow: 6px 6px 3px rbga(0, 0, 0, 0.2);
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px 10px;
+}
+
+nav a:hover {
+    color: rgba(102, 17, 17, 0.745);
+
+}
+
+/* --------------------------- */
+/* HOME */
+/* --------------------------- */
+
+.home main {
+
+    flex: 1;
+
+    min-height: 200px;
+
+    background-color: white;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/1200px-Great_Wave_off_Kanagawa2.jpg');
+    background-size: cover;
+}
+
+.home h1{
+    font-family:"Noto Serif JP", serif;
+    font-weight: 1500;
+    color: #ffffff;
+    text-shadow: #1a1919af;
+}
+
+
+/* --------------------------- */
+/* PAGINA1 */
+/* --------------------------- */
+
+.pagina1 header,
+.pagina1 main,
+.pagina1 footer,
+.pagina1 section {
+    flex: 1;
+}
+
+.pagina1 main {
+
+    display: flex;
+
+    gap: 15px;
+}
+
+.pagina1 header,
+.pagina1 section,
+.pagina1 footer {
+    background-color: rgb(183, 79, 79);
+    border: 2px solid black;
+    box-shadow: 6 px 6 px 3 px rbga(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina1 header:hover,
+.pagina1 main:hover,
+.pagina1 section:hover,
+.pagina1 footer:hover
+{
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(226, 226, 226);
+}
+
+
+
+
+/* --------------------------- */
+/* PAGINA2 */
+/* --------------------------- */
+
+.pagina2 header,
+.pagina2 footer{
+    flex: 1;
+}
+
+.pagina2 main{
+    flex: 2;
+}
+
+.pagina2 header,
+.pagina2 main,
+.pagina2 footer{
+   background-color: rgb(183, 79, 79);
+    border: 2x solid black;
+    box-shadow: 6 px 6 px 3 px rbga(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 6px 6px 3px rgba(0,0,0,0.2);
+   
+    /* Efeito de transição suave */
+    transition: all 0.3s ease;
+}
+.pagina2 header:hover,
+.pagina2 main:hover,
+.pagina2 footer:hover{
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(226, 226, 226);
+}
+
+/* --------------------------- */
+          /* PAGINA3 */
+/* --------------------------- */
+
+.pagina3 header, 
+.pagina3 main, 
+.pagina3 footer {
+    flex: 1;
+}
+
+
+.pagina3 header, 
+.pagina3 main, 
+.pagina3 footer {
+    display: flex;
+    gap: 15px;
+    
+}
+
+
+/* altura fixa (ou mínima) para o header e footer */
+.pagina3 header, 
+.pagina3 footer {
+    min-height: 90px;
+}
+
+
+.pagina3 section {
+    flex: 1;
+
+
+   background-color: rgb(183, 79, 79);
+    border: 2px solid black;
+    box-shadow: 6 px 6 px 3 px rbga(0, 0, 0, 0.2);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+
+.pagina3 section:hover{
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(226, 226, 226);
+}
+
+
+/* --------------------------- */
+/* PAGINA 4 */
+/* --------------------------- */
+
+
+.pagina4 main, .pagina4 footer {
+    flex: 1;
+}
+
+
+.pagina4 main, 
+
+.pagina4 footer {
+    display: flex;
+    gap: 15px;
+}
+
+.pagina4 section{
+    flex: 1;
+}
+
+
+.pagina4 header, .pagina4 section{
+    min-height: 100px; 
+    background-color: rgb(183, 79, 79);
+    border: 2px solid black;
+    box-shadow: 6 px 6 px 3 px rbga(0, 0, 0, 0.2);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    transition: all 0.3s ease;
+}
+
+
+.pagina4 header:hover,
+.pagina4 section:hover,
+.pagina4 footer section:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(226, 226, 226);
+}
+
+/* --------------------------- */
+/* PAGINA 5 */
+/* --------------------------- */
+
+
+
+.pagina5 header, .pagina5 main, .pagina5 footer {
+    flex: 1;
+}
+
+
+.pagina5 header,.pagina5 footer {
+    display: flex;
+    gap: 15px;
+}
+
+
+.pagina5 header section, .pagina5 footer section {
+    flex: 1;
+}
+
+
+.secao-maior {
+    flex: 2;
+}
+
+
+.pagina5 main, .pagina5 section {
+    background-color: rgb(183, 79, 79);
+    border: 2px solid black;
+    box-shadow: 6 px 6 px 3 px rbga(0, 0, 0, 0.2);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    min-height: 80px;
+    transition: all 0.3s ease;
+}
+
+
+.pagina5 main:hover,
+.pagina5 section:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(226, 226, 226);
+}
+
+

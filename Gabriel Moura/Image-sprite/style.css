@@ -1,0 +1,59 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+header {
+   padding: 30px;
+}
+.menu-icones ul {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+}
+.menu-icones a {
+   display: block;
+   width: 72px;
+   /* Largura fixa do ícone testar com 80px e tirar o comentario do background repeat*/
+   height: 72px;
+   /* Altura fixa do ícone */
+   background-image: url('assets/image_nav.gif');
+   background-repeat: no-repeat;
+}
+/* ----- Item 1 -----*/
+.item1 {
+   background-position: 0 0;
+}
+.item1:hover {
+   background-position: 0 -72px;
+}
+/* ----- Item 2 -----*/
+.item2 {
+   background-position: 0 -144px;
+}
+.item2:hover {
+   background-position: 0 -216px;
+}
+/* ----- Item 3 -----*/
+.item3 {
+   background-position: 0 -288px;
+}
+.item3:hover {
+   background-position: 0 -360px;
+}
+/* ----- Item 4 -----*/
+.item4 {
+   background-position: 0 -432px;
+}
+.item4:hover {
+   background-position: 0 -504px;
+}
+/* ----- Item 5 -----*/
+.item5 {
+   background-position: 0 -576px;
+}
+.item5:hover {
+   background-position: 0 -648px;
+}

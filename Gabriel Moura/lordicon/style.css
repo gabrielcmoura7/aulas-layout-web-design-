@@ -1,0 +1,27 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+   box-sizing: border-box;
+
+   .alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+
+   
+
+}
+
+
+
+
